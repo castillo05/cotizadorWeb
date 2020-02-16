@@ -1,3 +1,3 @@
 export let GLOBAL={
-  url:'https://cotizador-modeda.herokuapp.com/'
+  url:'https://cotizador-modeda.herokuapp.com/api/'
 }
