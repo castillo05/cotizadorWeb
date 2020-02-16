@@ -22,7 +22,8 @@ export class AppComponent implements OnInit {
   constructor(private CotizacionService:CotizacionService,private spinner: NgxSpinnerService) {
     this.formCotizacion= new FormGroup({
       'target':new FormControl('',Validators.required),
-      'source':new FormControl('',Validators.required)
+      'source':new FormControl('',Validators.required),
+      'quantity':new FormControl('', Validators.required)
     })
 
     this.urls=[this.CotizacionService.getCotizacionDolar,this.CotizacionService.getCotizacionPesos,this.CotizacionService.getCotizacion];

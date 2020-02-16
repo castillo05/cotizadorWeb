@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { NgxSpinnerModule } from "ngx-spinner";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -14,7 +16,8 @@ import { NgxSpinnerModule } from "ngx-spinner";
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    BrowserAnimationsModule
 
   ],
   providers: [],

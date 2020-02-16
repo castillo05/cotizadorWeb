@@ -16,7 +16,7 @@ export class CotizacionService {
     const headers = new HttpHeaders({
       'Content-Type': 'application/json'
     });
-     return this.http.get(this.url+'cotizacion/'+target.target+'/'+target.source,{headers});
+     return this.http.get(this.url+'cotizacion/'+target.target+'/'+target.source+'/'+target.quantity,{headers});
    }
 
    getCotizacionDolar(target:any){
