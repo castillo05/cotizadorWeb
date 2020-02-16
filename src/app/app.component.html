@@ -1,3 +1,7 @@
+
+<app-header></app-header>
+<hr>
+<app-main></app-main>
 <div class="container">
   <div class="row">
 
@@ -10,9 +14,9 @@
             Precio de:
             <select formControlName="source" class="form-control" id="exampleSelect1" required>
               <option value="">Seleccione una opcion</option>
-              <option value="USD">Dolar</option>
-              <option value="ARS">Pesos Argentinos</option>
-              <option value="NIO">Cordoba Nicaraguense</option>
+              <option value="USD">U$ Dolar</option>
+              <option value="ARS">$ Pesos Argentinos</option>
+              <option value="NIO">C$ Cordoba Nicaraguense</option>
 
             </select>
           </div>
@@ -20,9 +24,9 @@
             Con respecto a:
             <select formControlName="target" class="form-control" id="exampleSelect1" required>
               <option value="">Seleccione una opcion</option>
-              <option value="USD">Dolar</option>
-              <option value="ARS">Pesos Argentinos</option>
-              <option value="NIO">Cordoba Nicaraguense</option>
+              <option value="USD">U$ Dolar</option>
+              <option value="ARS">$ Pesos Argentinos</option>
+              <option value="NIO">C$ Cordoba Nicaraguense</option>
 
             </select>
           </div>
@@ -40,7 +44,7 @@
       </form>
     </div>
     <div class="col-6">
-      <h4 class="text-center text-primary">COTIZACION DEL $ EURO</h4>
+      <h4 class="text-center text-black">COTIZACION DEL € EURO</h4>
       <h6 class="text-center text-secondary">Actualizado cada 5 segundos</h6>
 
       <table class="table table-dark">
@@ -82,3 +86,6 @@
 
   </div>
 </div>
+<hr>
+<!-- Footer -->
+<app-footer></app-footer>
